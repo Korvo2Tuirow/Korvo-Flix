@@ -21,7 +21,8 @@ body{
     width: 100%;
     height: 9vh;
     background-color: black;
-    border-bottom: solid 3px blue;
+    border-bottom: solid 3px;
+    animation: colors 15s  linear alternate-reverse infinite;
 }
 
 .logo{
@@ -102,5 +103,15 @@ section{
         transform: scale(1);
         opacity: 1;
       }
+
+      
     }
  
+    @keyframes colors {
+        0% {border-bottom: 3px solid rgb(42, 226, 42);}
+        25% { border-bottom: 3px solid rgb(232, 248, 5);}
+        50% { border-bottom: 3px solid rgb(248, 5, 5);}
+        75% { border-bottom: 3px solid rgb(199, 5, 248);}
+        100% { border-bottom: 3px solid rgb(21, 5, 248);}
+        
+    }
