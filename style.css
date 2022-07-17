@@ -77,8 +77,10 @@ section{
    }
 
   .teste:hover {
-    background-image: url(midia/vincentcrow_0.jpg);
-    transition: 0.5s;
+    background-image: url(midia/corvo.png);
+    transition: 1s;
+    transition-delay: 1s;
+    
     
    }
 
@@ -86,7 +88,7 @@ section{
     
     .teste{
        
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 500px;       
     height: 30vh;
          
